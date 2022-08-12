@@ -19,17 +19,13 @@ function dragElement(elemento) {
     let pos1 = 0,
     pos2 = 0,
     pos3 = 0,
-    pos4 = 0,
-	pos5=0,
-	pos6=0;
+    pos4 = 0;
 elemento.onpointerdown = pointerDrag;
 function pointerDrag(e) {
 	e.preventDefault();
 	console.log(e);
 	pos3 = e.clientX;
 	pos4 = e.clientY;
-	pos5 = e.clientX;
-	pos6 = e.clientY;
     document.onpointermove = elementDrag;
 document.onpointerup = stopElementDrag;
 document.ondblclick= dobleclick;
