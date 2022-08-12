@@ -39,7 +39,7 @@ body{
 .jar-walls {
 	height: 80%;
 	width: 60%;
-	background: #d1e1df;
+	background: #13ddf8;
 	border-radius: 1rem;
 	position: absolute;
 	bottom: 0.5%;
@@ -51,7 +51,7 @@ body{
 .jar-top {
 	width: 50%;
 	height: 5%;
-	background: #d1e1df;
+	background: #13ddf8;
 	position: absolute;
 	bottom: 80.5%;
 	left: 25%;
